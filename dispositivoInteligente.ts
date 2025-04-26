@@ -22,4 +22,18 @@ export abstract class DispositivoInteligente implements IConectable{
     }
     
     abstract funcionar(): void;
+
+    setMarca(pMarca: string) {
+        this.marca = pMarca;
+    }
+    setModelo(pModelo: string) {
+        this.modelo = pModelo;
+    }
+
+    getMarca() {
+        return this.marca;
+    }
+    getModelo() {
+        return this.modelo;
+    }
 }

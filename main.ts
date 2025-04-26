@@ -23,5 +23,5 @@ dispositivos.forEach((dispositivo) => {
     dispositivo.mostrarInfo();
     dispositivo.funcionar();
     dispositivo.desconectar();// dentro del metodo desconectar en la clase televisor, llamo al metodo apagar del control remoto, por lo tanto apaga y desconecta juntos
-
+    
 });

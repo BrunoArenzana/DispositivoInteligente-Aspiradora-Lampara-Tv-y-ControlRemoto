@@ -29,5 +29,12 @@ export class Televisor extends DispositivoInteligente {
         console.log("Desconectando con el control")
         console.log(`El televisor ${this.marca} está desconectado.`);
     }
+
+    getControlRemoto() {
+        return this.controlRemoto;
+    }
+    setControlRemoto(conrol: ControlRemoto) {
+        this.controlRemoto = conrol;
+    }
 }
 
